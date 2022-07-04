@@ -1,19 +1,10 @@
 .row {
+    background: rgb(199, 199, 199);
     padding: 25px;
 }
 
-div {
-    background: rgb(199, 199, 199);
-}
-h2, h4 {
-    display: inline;
-}
-
 h1 {
+    display: inline;
     border-style: outset;
     border-color: greenyellow;
-}
-
-p {
-    font-size: 20px;
 }
