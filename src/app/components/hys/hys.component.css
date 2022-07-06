@@ -1,0 +1,10 @@
+.row {
+    background: rgb(199, 199, 199);
+    padding: 25px;
+}
+
+h1 {
+    display: inline;
+    border-style: outset;
+    border-color: greenyellow;
+}

@@ -1,3 +1,39 @@
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.social {
+     margin-right: 2em;
+}
+.logo {
+    margin-left: 2em;
+}
 #logoAp{
     width: 150px;
+}
+img {
+    width: 50px;
+}
+.btn {
+    border-width: medium;
+}
+@media (max-width: 575px) {
+    .container {
+        flex-direction: row;
+    }
+    .social {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+    .redes img {
+        margin: 0.3em;
+    }
+    .social {
+        margin-right: 1em;
+   }
+   .logo {
+       margin-left: 1em;
+   }
 }
